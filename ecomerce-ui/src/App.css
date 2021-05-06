@@ -1,0 +1,174 @@
+/*Header*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /*freezes the header */
+	top:0;
+	width:100%;
+  z-index: 1000;
+  height: 80px;
+  background-color: white;
+}
+
+.airbnbLogoImg {
+  width: 30px;
+  height: 35px;
+  margin: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.airbnbLogoType {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.airbnbLogoType, .starIcon {
+  font-family: sans-serif;;
+  color: #E34D61;
+}
+
+.cartButton {
+  background: none;
+  border: none;
+  color: none;
+  margin-right: 150px;
+  font-weight: bold;
+}
+
+.headerHr {
+  border:none;
+  height: 10px;
+	height: 25px;
+	margin-top: 0;
+	box-shadow: 0 10px 10px -10px rgb(79, 79, 79);
+  margin: -70px 0px -10px;
+}
+
+/*Body*/
+
+body {
+  font-weight: 200;
+  margin-top: 120px;
+}
+
+.listingsAndCart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.staysTitle {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+/*Listings*/
+
+.listings {
+  margin: 20px 20px 20px 20px;
+  width: 100%;
+}
+
+.listingInfo {
+  width: 45%;
+  margin-left: 10px;
+}
+
+.listingTitle {
+  font-size: 22px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#listingTitleHr {
+  width: 10%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.img {
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 400px;
+  height: auto; 
+  border: .5px solid lightgray;
+}
+
+.superHostContainer {
+  position: relative;
+  text-align: center;
+}
+
+.superHost {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  font-weight: bold;
+  background-color: lightgray; 
+  opacity: 0.8;
+  padding: 3px;
+  border-radius: 5px;
+
+}
+
+.listingLocation, .listings, .paymentContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.listingBottom {
+  margin-top: 155px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  bottom: 0;
+}
+
+hr {
+  border-top: 0.5px solid lightgray;
+  border-bottom: none;
+}
+
+.listingHr {
+  margin-left: 20px;
+}
+
+/*Cart*/
+
+.cartContainer {
+  width: 25%;
+  float: right;
+  margin-top: 20px;
+}
+
+.cartItemsHeader {
+  margin-top: 0px;
+}
+
+.addSpace {
+  padding-bottom: 10px;
+}
+
+/*Attributes*/
+
+.gray {
+  color: gray;
+}
+
+.bold {
+  font-weight: bold;
+}
